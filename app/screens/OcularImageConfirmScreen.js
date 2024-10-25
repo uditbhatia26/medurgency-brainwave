@@ -1,46 +1,48 @@
-import { StyleSheet, View, Text, Image, Button } from "react-native";
+import { StyleSheet, View, Text, Image, TouchableOpacity } from "react-native";
 
-import { Colors } from "../../constants/Colors";
-
-function ImageConfirmScreen({ navigation, route }) {
+function OcularImageConfirmScreen({ navigation, route }) {
   imageObject = route.params.image;
   imagePath = imageObject.assets.at(0).uri;
   console.log(imageObject);
 
   function continueButtonPressHandler() {
-    navigation.navigate("Questionnaire1");
+    console.log("Hello");
   }
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Screening Using AI</Text>
+      <Text style={styles.title}>OCULAR IMAGE RECOGNITION</Text>
       <View style={styles.imagePreview}>
         <Image style={styles.image} source={{ uri: imagePath }} />
       </View>
       <View style={styles.buttonContainer}>
-        <Button
+        <TouchableOpacity
           title="Continue Analysis"
           color="#088cfc"
           onPress={continueButtonPressHandler}
-        />
+          style={styles.buttonContainer}
+        >
+          <Text style={styles.buttonText}>CONTINUE</Text>
+        </TouchableOpacity>
       </View>
     </View>
   );
 }
 
-export default ImageConfirmScreen;
+export default OcularImageConfirmScreen;
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: Colors.mainBg,
+    backgroundColor: "#e67171",
   },
   title: {
     fontSize: 36,
     fontWeight: "700",
     color: "white",
+    textAlign: "center",
   },
   imagePreview: {
     width: "100%",
@@ -57,8 +59,16 @@ const styles = StyleSheet.create({
     resizeMode: "contain",
   },
   buttonContainer: {
-    marginTop: 36,
     alignSelf: "center",
     // height: 200,
+    backgroundColor: "white",
+    borderRadius: 30,
+    paddingHorizontal: 10,
+  },
+  buttonText: {
+    fontSize: 32,
+    color: "#0f0f0f",
+    fontWeight: "800",
+    textAlign: "center",
   },
 });
