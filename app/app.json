@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MedUrgency",
-    "slug": "MedUrgency",
+    "name": "UpScript",
+    "slug": "UpScript",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +22,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "The app needs access to your camera in order to take a picture."
+        }
+      ]
+    ]
   }
 }
