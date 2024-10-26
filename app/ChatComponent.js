@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-import { View, TextInput, Text, ScrollView, StyleSheet, TouchableOpacity } from "react-native";
+import {
+  View,
+  TextInput,
+  Button,
+  Text,
+  StyleSheet,
+  TouchableOpacity,
+} from "react-native";
 
 const ChatbotScreen = () => {
   const [userQuery, setUserQuery] = useState("");
@@ -48,11 +55,7 @@ const ChatbotScreen = () => {
       <TouchableOpacity style={styles.button} onPress={submitQuery}>
         <Text style={styles.buttonText}>Submit</Text>
       </TouchableOpacity>
-      
-      {/* ScrollView for the response */}
-      <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
-        <Text style={styles.response}>{responseText}</Text>
-      </ScrollView>
+      <Text style={styles.response}>{responseText}</Text>
     </View>
   );
 };
@@ -60,7 +63,7 @@ const ChatbotScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#ffe5e5", // Light pink background color
+    backgroundColor: "#982b2b", // Light pink background color
     alignItems: "center",
     justifyContent: "center",
     padding: 20,
@@ -87,15 +90,11 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
   },
-  scrollView: {
-    width: "100%",
-    marginTop: 20,
-    maxHeight: 400,
-  },
   response: {
     color: "#000000",
     fontSize: 16,
-    padding: 10,
+    marginTop: 20,
+    textAlign: "center",
   },
 });
 
