@@ -30,8 +30,13 @@ MedUrgency is an AI-driven platform that provides doctors with advanced diagnost
 ## Mobile Application Demo
 
 ![app_home_screen](https://github.com/user-attachments/assets/e4e8032e-5a79-4f5a-9b49-e6dc61ce6e88)
-![ocular_screen](https://github.com/user-attachments/assets/d5b727cc-360e-4dcd-943f-f34368148633)
-![ocular_screen_1](https://github.com/user-attachments/assets/7a1db661-9d58-45b3-9c76-a55b7b9552ec)
+![image](https://github.com/user-attachments/assets/a5120765-ded6-4a77-879e-b5440460f58e)
+![image (1)](https://github.com/user-attachments/assets/f8362380-7c85-495f-ac71-7e7042dfc862)
+![d6d00021-2604-419b-973d-115f27307546](https://github.com/user-attachments/assets/8350bbb8-da01-47bc-9862-23f5616d9961)
+![image (2)](https://github.com/user-attachments/assets/1d73ed76-cdc7-443a-86d8-79db6574edc3)
+![bd0eaf6a-460c-4100-9615-1178fa404f7a](https://github.com/user-attachments/assets/d7acc433-7ab8-4297-8f8e-b916e026662c)
+
+
 
 
 
