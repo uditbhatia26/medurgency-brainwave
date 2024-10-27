@@ -43,11 +43,11 @@ MedUrgency is an AI-driven platform that provides doctors with advanced diagnost
 
 ## Technologies Used
 - **Backend**: Python, Flask
-- **Frontend**: HTML, CSS, JavaScript
-- **AI Models**: TensorFlow, PyTorch, OpenCV
-- **Database**: MongoDB
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap
+- **AI Models**: TensorFlow, PyTorch
+- **Database**: Firebase
 - **APIs**: Integration with hospital databases for report management
-- **Deployment**: Docker, AWS (or your cloud provider)
+- **Deployment**: Docker
 
 ## Installation
 
