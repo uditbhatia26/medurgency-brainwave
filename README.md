@@ -18,7 +18,7 @@ This is an AI-driven platform that provides doctors with advanced diagnostic too
 - **Virtual Assistant for Symptom Detection** *(upcoming)*: Use an AI-powered chatbot to diagnose symptoms and suggest potential conditions.
   
 ## Website Demo
-![image](https://github.com/user-attachments/assets/e608a570-8f7d-4e0b-b762-6699aa1122e5)
+![image](https://github.com/user-attachments/assets/5c8af89c-825c-4481-b2e7-cee9128fe756)
 ![image](https://github.com/user-attachments/assets/678e6a05-79c7-4c3b-b5ce-c2973c2e329b)
 ![image](https://github.com/user-attachments/assets/b6a8da64-1ed4-42ae-bb2d-74840556139f)
 ![image](https://github.com/user-attachments/assets/dbe04904-dc6e-4c4f-9cef-7097dac67178)
