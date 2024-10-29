@@ -1,3 +1,4 @@
+## QuickCure
 AI-Powered Medical Assistant
 
 This is an AI-driven platform that provides doctors with advanced diagnostic tools to help detect critical health conditions. The platform includes models for cardiovascular disease prediction, lung X-ray analysis, ocular disease recognition, and a streamlined report-handling system for patients. 
